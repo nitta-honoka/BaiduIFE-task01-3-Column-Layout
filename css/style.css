@@ -47,9 +47,6 @@ body {
 .com-padding {
     padding: 20px;
 }
-.main-container {
-    padding-bottom: 200px;
-}
 /*浮动三列布局*/
 .content {
     min-width: 980px;
@@ -66,9 +63,12 @@ body {
 .middle {
     margin: 0 140px 0 220px;
 }
-.left pre {
+.left span {
     float: right;
     font-size: 12px;
+}
+.middle section {
+    margin-bottom: 1em;
 }
 .middle p {
     font-size: 12px;
