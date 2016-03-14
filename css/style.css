@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: "Microsoft YaHei", Arial;
+}
+body {
+    height: 100%;
+}
+.clearfix::after {
+    display: block;
+    visibility: hidden;
+    clear: both;
+    height: 0;
+    content: ".";
+}
+.clearfix {
+    zoom: 1;
+}
+/*公用部分*/
+.bg-gray {
+    background-color: #E9E9E9;
+}
+.bg-white {
+    background-color: #FFFFFF;
+}
+.com-border {
+    border: 1px solid #999;
+}
+.com-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    -webkit-transition: transform 1s;
+    -moz-transition: transform 1s;
+    -ms-transition: transform 1s;
+    -o-transition: transform 1s;
+    transition: transform 1s;
+}
+.com-image:hover {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+.com-padding {
+    padding: 20px;
+}
+.main-container {
+    padding-bottom: 200px;
+}
+/*浮动三列布局*/
+.content {
+    min-width: 980px;
+    padding-bottom: 50px;
+}
+.left {
+    float: left;
+    width: 200px;
+}
+.right {
+    float: right;
+    width: 120px;
+}
+.middle {
+    margin: 0 140px 0 220px;
+}
+.left pre {
+    float: right;
+    font-size: 12px;
+}
+.middle p {
+    font-size: 12px;
+    line-height: 200%;
+}
+.right .com-image {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.right .com-image:first-of-type {
+    margin-top: 0;
+}
+.right .com-image:last-of-type {
+    margin-bottom: 0;
+}
