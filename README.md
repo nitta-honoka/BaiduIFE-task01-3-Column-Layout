@@ -27,7 +27,7 @@
 - 学习了：三列布局的多种方式，清除浮动的技巧
 - 实现了：一个两边定宽，中间自适应的三列布局，并为所有图片添加了旋转动画
 - DEMO：[地址](http://nitta-honoka.github.io/BaiduIFE-task01-3-Column-Layout/index.html)
-- 博文：待写
+- 博文：[如何实现一个左右宽度固定，中间自适应的三列布局——也聊聊双飞翼](http://www.cnblogs.com/honoka/p/5161836.html)
 
 #联系我
 
