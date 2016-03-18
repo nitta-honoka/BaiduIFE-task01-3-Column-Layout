@@ -28,6 +28,7 @@ body {
     border: 1px solid #999;
 }
 .com-image {
+    display: block;
     width: 80px;
     height: 80px;
     border-radius: 100%;
@@ -50,7 +51,6 @@ body {
 /*浮动三列布局*/
 .content {
     min-width: 980px;
-    /*padding-bottom: 50px;*/
 }
 .left {
     float: left;
