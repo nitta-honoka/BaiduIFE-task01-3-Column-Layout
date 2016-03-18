@@ -28,7 +28,7 @@ body {
     border: 1px solid #999;
 }
 .com-image {
-    display: block;
+    vertical-align: top;
     width: 80px;
     height: 80px;
     border-radius: 100%;
