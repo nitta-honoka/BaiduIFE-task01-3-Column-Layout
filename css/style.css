@@ -50,7 +50,7 @@ body {
 /*浮动三列布局*/
 .content {
     min-width: 980px;
-    padding-bottom: 50px;
+    /*padding-bottom: 50px;*/
 }
 .left {
     float: left;
@@ -75,7 +75,6 @@ body {
     line-height: 200%;
 }
 .right .com-image {
-    margin-top: 20px;
     margin-bottom: 20px;
 }
 .right .com-image:first-of-type {
